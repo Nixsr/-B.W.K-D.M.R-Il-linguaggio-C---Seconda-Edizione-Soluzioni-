@@ -18,12 +18,8 @@ main()
 			++naltri;
 		
 		printf("Gli interi inseriti sono: ");
-		for ( i = 0; i < 10; ++i ){
-			if ( i == 9 ){
-				printf("\n");
+		for ( i = 0; i < 10; ++i )
 			printf(" %d", ninteri[i]);
-			}
-			}
-		printf("Il numero degli spazi è: %d\nIl numero degli altri caratteri è: %d\n, nspazi, naltri);
+		printf(" ,Il numero degli spazi è: %d ,Il numero degli altri caratteri è: %d\n", nspazi, naltri);
 	}
 }

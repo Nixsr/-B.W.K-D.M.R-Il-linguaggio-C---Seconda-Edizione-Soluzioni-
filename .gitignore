@@ -1,2 +1,6 @@
+*
+
 /Soluzioni
 .gitignore
+
+!*.c
